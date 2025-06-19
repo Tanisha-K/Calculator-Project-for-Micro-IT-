@@ -7,7 +7,7 @@ A beautifully designed **basic calculator** built using **HTML, CSS, and JavaScr
 ##  Features
 
 - Basic operations: Addition, Subtraction, Multiplication, Division
-- Clear (C) and Delete (⌫) functionality
+- Clear (C) and Delete functionality
 - User-friendly and responsive design
 - Instant result display without reloading
 - Fully handled via JavaScript (no backend required)
