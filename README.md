@@ -22,5 +22,5 @@ A beautifully designed **basic calculator** built using **HTML, CSS, and JavaScr
 
 - HTML5
 - CSS3 (No pixel units used for responsiveness)
-- JavaScript (Vanilla JS, no libraries)
+- JavaScript
 
