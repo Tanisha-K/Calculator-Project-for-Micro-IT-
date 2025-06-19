@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #6a00f4, #b900ff);
+    min-height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  
+  .calculator {
+    background-color: #111827;
+    border-radius: 2rem;
+    padding: 2.5rem 2rem; /* Increase vertical + horizontal padding */
+    width: 360px;         /* Increase overall width */
+    min-height: 520px;    /* Add height to grow black background */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    max-width: 90vw;      /* Prevent it from going too wide on small screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .display {
+    background: transparent;
+    color: white;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+    margin-bottom: 1rem;
+    min-height: 60px;
+    overflow-x: auto;
+  }
+  
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; /* ✅ spacing between buttons */
+    padding: 0.5rem; /* ✅ add padding inside the button grid */
+    box-sizing: border-box;
+  }
+  
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #1f2937;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #374151;
+  }
+  
+  .operator {
+    background-color: #8b5cf6;
+  }
+  
+  .operator:hover {
+    background-color: #7c3aed;
+  }
+  
+  .ac {
+    background-color: #f43f5e;
+  }
+  
+  .ac:hover {
+    background-color: #e11d48;
+  }
+  
+  .equals {
+    background-color: #10b981;
+    grid-column: span 1;
+  }
+  
+  .equals:hover {
+    background-color: #059669;
+  }
+  
+  .zero {
+    grid-column: span 2;
+  }
+  
